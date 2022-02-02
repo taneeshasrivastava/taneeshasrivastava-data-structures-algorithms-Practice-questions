@@ -1,1 +1,1 @@
-# taneeshasrivastava-data-structures-algorithms-Practice-questions
+Data-structures-algorithms-Practice-questions
