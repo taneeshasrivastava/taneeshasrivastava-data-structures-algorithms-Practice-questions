@@ -6,7 +6,7 @@
 using namespace std;
 
 
-int  MinBottomDownNumberCoinChange(int m ,vector<int>  coins){
+int  inBottomUpNumberCoinChange(int m ,vector<int>  coins){
     vector<int> dp(m+1,0);
     dp[0]=0;
     for(int i=1 ;i<=m;i++){
@@ -47,7 +47,7 @@ ll minNumberTopDownofcoinsForchange( ll m, vector< int> denoms, vector< ll> &dp)
 int main(){
     vector<int> coins={1,5,7,10};
     int m =8;
-    cout<< MinBottomDownNumberCoinChange(m,coins)<<endl;
+    cout<< inBottomUpNumberCoinChange(m,coins)<<endl;
 
     int n=12;
     vector<int> v={1,2,5};
